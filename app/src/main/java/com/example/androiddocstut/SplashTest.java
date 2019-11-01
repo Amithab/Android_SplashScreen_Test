@@ -43,7 +43,7 @@ public class SplashTest extends AppCompatActivity {
         splash = findViewById(R.id.splashscreen);
         Message msg = new Message();
         msg.what = STOPSPLASH;
-        splashHandler.sendMessageDelayed(msg, SPLASHTIME);
+        //splashHandler.sendMessageDelayed(msg, SPLASHTIME);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
